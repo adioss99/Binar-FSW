@@ -186,7 +186,7 @@
               <div class="card text-start">
                 <div class="card-body" id="testi-card3">
                   <div class="row">
-                    <div id="testi-av"  class="col-sm-2 m-auto">
+                    <div id="testi-av" class="col-sm-2 m-auto">
                       <img src="assets/testi1.png" alt="" />
                     </div>
                     <div id="testi-body" class="col-sm-9">
@@ -233,7 +233,7 @@
           <div class="card m-auto">
             <div class="card-body">
               <div class="row">
-                <div class="col-sm-5 text-start">
+                <div id="faq-title" class="col-sm-5">
                   <h3>Frequently Asked Question</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
@@ -311,12 +311,12 @@
     </main>
     <footer class="px-4 mt-5 mb-2">
       <div class="row">
-        <div id="address" class="col-sm-3 ">
+        <div id="address" class="col-sm-3">
           <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
           <p>binarcarrental@gmail.com</p>
           <p>081-233-334-808</p>
         </div>
-        <div id="navigation" class="col-sm pe-2">
+        <div id="navigation" class="col-sm">
           <p>Our Services</p>
           <p>Why Us</p>
           <p>Testimonial</p>
@@ -348,7 +348,8 @@
         owl.owlCarousel({
           margin: 10,
           nav: false,
-          // navText: ["<div class='nav-btn prev-slide'><i class='fa-solid fa-angle-left'></i></div>", "<div class='nav-btn next-slide'><i class='fa-solid fa-angle-right'></i></div>"],
+          autoplay: true,
+          autoplayTimeout: 5000,
           loop: true,
           dots: false,
           center: true,

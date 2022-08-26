@@ -128,7 +128,9 @@ main {
 #sewa .sewa-btn {
   display: flex;
 }
-
+#faq-title{
+  text-align: start;
+}
 #faq .card {
   padding: 40px;
   border-style: hidden;
@@ -186,6 +188,15 @@ footer .row {
     padding-left: 0px;
     padding-right: 0px;
   }
+  #why-us h2{
+    text-align: center;
+  }
+  #why-us .sub-title{
+    text-align: center;
+  }
+  #faq-title{
+    text-align: center;
+  }
   #faq .card {
     width: auto;
     padding: 0px;
@@ -224,6 +235,9 @@ footer .row {
   footer .row {
     padding-left: 5px;
     padding-right: 5px;
+  }
+  footer #navigation p{
+    margin-top: -15px;
   }
   #copyright{
     margin-top: 10px;
